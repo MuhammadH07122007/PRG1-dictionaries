@@ -38,4 +38,5 @@ print(f"Is Aisha registered? {is_registered(student_grades, 'Aisha')}")
 
 record_grade(student_grades, "Aisha", 61)
 record_grade(student_grades, "Kai", 12)
+print(f"Class average: {class_average(student_grades, class_list):.1f}")
 print(student_grades)
