@@ -28,7 +28,6 @@ def record_grade(grades, name, score):
     Leave an existing grade alone."""
     if grades.get(name, 0) == 0:
      grades[name] = score
-    return
 
 
 print(f"Class average: {class_average(student_grades, class_list):.1f}")
