@@ -8,7 +8,10 @@ student_grades = {
 print(student_grades["Kwame"])
 print(student_grades.get("Aisha", "Not found"))
 
-result = student_grades["Elara"]
+result = student_grades["Elara"] = 45
 print(result)
 
-print(student_grades["Aisha"])
+print(student_grades.get("Aisha", "Student is missing"))
+
+student_grades["mhk"] = 39
+print(student_grades.get("mhk", "Not found"))
